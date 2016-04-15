@@ -4,6 +4,38 @@ It is a demo for babel + power-assert preset.
 
 -  A combination of [babel-register](https://www.npmjs.com/package/babel-register "babel-register") and [babel-preset-power-assert](https://github.com/power-assert-js/babel-preset-power-assert "babel-preset-power-assert").
 
+## Babel configuration
+
+```json
+{
+  "presets": [
+    "es2015"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        "jsdoc-to-assert",
+        "power-assert"
+      ]
+    },
+    "production": {
+      "plugins": [
+        "babel-plugin-unassert"
+      ]
+    }
+  }
+}
+```
+
+- es2015 - [ES2015 preset · Babel](https://babeljs.io/docs/plugins/preset-es2015/ "ES2015 preset · Babel")
+- jsdoc-to-assert 
+    - JSDoct to runtime assertion
+    - [azu/babel-preset-jsdoc-to-assert: Babel plugin for jsdoc-to-assert](https://github.com/azu/babel-preset-jsdoc-to-assert "azu/babel-preset-jsdoc-to-assert: Babel plugin for jsdoc-to-assert")
+- power-assert
+    - [power-assert](https://github.com/power-assert-js/power-assert "power-assert") preset
+- babel-plugin-unassert
+    - [unassert](https://github.com/twada/unassert "unassert") remove `asssert` from production code
+
 ## Installation
 
     npm install
