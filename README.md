@@ -2,7 +2,7 @@
 
 It is a demo for babel + power-assert preset.
 
--  A combination of [babel-register](https://www.npmjs.com/package/babel-register "babel-register") and [babel-preset-power-assert](https://github.com/power-assert-js/babel-preset-power-assert "babel-preset-power-assert"). and [babel-preset-power-assert](https://github.com/power-assert-js/babel-preset-power-assert "babel-preset-power-assert")
+-  A combination of [babel-register](https://www.npmjs.com/package/babel-register "babel-register") and [babel-preset-power-assert](https://github.com/power-assert-js/babel-preset-power-assert "babel-preset-power-assert").
 
 ## Installation
 
