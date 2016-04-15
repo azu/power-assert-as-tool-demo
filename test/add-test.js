@@ -11,7 +11,7 @@ describe("add", function () {
 
             throw new Error("unreachable line");
         } catch (error) {
-            assert(error instanceof assert.AssertionError);
+            assert.equal(error.name, assert.AssertionError.name);
         }
     });
 });
