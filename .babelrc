@@ -8,6 +8,11 @@
         "jsdoc-to-assert",
         "power-assert"
       ]
+    },
+    "production": {
+      "plugins": [
+        "babel-plugin-unassert"
+      ]
     }
   }
 }

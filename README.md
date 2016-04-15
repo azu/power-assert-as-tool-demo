@@ -12,6 +12,8 @@ It is a demo for babel + power-assert preset.
 
     # Edit test and fail
     npm test
+    # Build with unassert
+    npm build
 
 ![image](http://efcl.info/wp-content/uploads/2016/04/14-1460633294.png)
 
